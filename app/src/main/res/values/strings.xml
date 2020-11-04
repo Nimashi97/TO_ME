@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TO ME</string>
+    <string name="task_name">New Task</string>
+    <string name="new_note">New Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="checkbox">tabian.com.sharedpreferences.checkbox</string>
+    <string name="food_name">Food Name</string>
+    <string name="ingrediants">Ingrediants</string>
+    <string name="ingredients">ingredients</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="new_to_do">New To Do</string>
+    <string name="new_item">New Item</string>
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/save"
+        android:fontFamily="@font/atma_light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="To Me"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/to_do_bg"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:onClick="todoList"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:text="To Do List"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:src="@drawable/to_do">
+
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/note_bg"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:onClick="noteList"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:text="Notes"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:src="@drawable/note">
+
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/shop_bg"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:onClick="ShoppingList"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:text="Shopping List"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:src="@drawable/shop">
+
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/diary_bg"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:onClick="Diary"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:fontFamily="@font/bree_serif"
+            android:gravity="center"
+            android:text="Personal Diary"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:src="@drawable/diary">
+
+
+        </ImageView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:background="@drawable/recipe_bg"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+
+            android:onClick="Recipe"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/bree_serif"
+                android:gravity="center"
+                android:text="Recipe book"
+                android:textColor="@color/white"
+                android:textSize="20sp">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:src="@drawable/recipie">
+
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>

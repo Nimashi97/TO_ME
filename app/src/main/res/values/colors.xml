@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="green">#2ecc71</color>
+    <color name="darkGreen">#27ae60</color>
+    <color name="white">#fff</color>
+    <color name="red">#e74c3c</color>
+    <color name="save">#20bf6b</color>
+    <color name="delete">#ff3838</color>
+    <color name="to_do_list_color">#3BCED4</color>
+    <color name="to_do_listbg_color">#7EF9FF</color>
+    <color name="note_bg_color">#F38836</color>
+    <color name="note_lbg_color">#FFB47C</color>
+    <color name="shop_color">#7BDB3C</color>
+    <color name="diary_color">#DB3C6D</color>
+    <color name="recipe_color">#7B3CDB</color>
+    <color name="ash">#778ca3</color>
+    <color name="pink">#FCA1BC</color>
+</resources>

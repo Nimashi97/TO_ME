@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/save"
+        android:fontFamily="@font/atma_light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="New Recipe"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+
+    </TextView>
+    <EditText
+        android:inputType="text"
+        android:background="@null"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="10dp"
+        android:hint="Type Your Food Name Here"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        >
+    </EditText>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:background="@null"
+        android:id="@+id/ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="start"
+        android:padding="10dp"
+        android:hint="@string/ingrediants"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CLEAR"
+            android:background="@drawable/clear_button_bg"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="clear">
+
+        </Button>
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Save"
+            android:background="@drawable/button_bg"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="save">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
